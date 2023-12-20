@@ -29,7 +29,7 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 
 sizes=[30,20,25,15,10]
-labels=['A','B','C','D']
+labels=['A','B','C','D','E']
 plt.figure()
 plt.pie(sizes,labels=labels,autopct='%1.1f%%')
 plt.title("Pie Chart")
